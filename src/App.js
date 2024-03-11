@@ -3,6 +3,7 @@ import './App.css';
 import Counter from './Counter';
 import Notcallback from './Notcallback'
 import Usecallbacktest from './Usecallbacktest';
+import ImageUpload from './ImageUpload';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Counter/>
         <Notcallback/>
         <Usecallbacktest/>
+        <ImageUpload/>
       </header>
     </div>
   );
