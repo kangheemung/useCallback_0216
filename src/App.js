@@ -4,7 +4,7 @@ import Counter from './Counter';
 import Notcallback from './Notcallback'
 import Usecallbacktest from './Usecallbacktest';
 import ImageUpload from './ImageUpload';
-
+import FilteredList from './FilteredList';
 function App() {
   return (
     <div className="App">
@@ -13,6 +13,7 @@ function App() {
         <Notcallback/>
         <Usecallbacktest/>
         <ImageUpload/>
+        <FilteredList/>
       </header>
     </div>
   );
